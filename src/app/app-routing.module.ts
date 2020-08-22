@@ -10,30 +10,32 @@ import { PathResolveService } from './services/path-resolve.service';
 import { config } from 'rxjs';
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  //   pathMatch: 'full',
-  //   redirectTo: paths.home,
-  // },
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: paths.home,
+  },
   {
     path: paths.home,
     component: HomeComponent,
   },
-  {
-    path: paths.about,
-    component: AboutComponent,
-  },
-  {
-    path: paths.contact,
-    component: ContactComponent,
-  },
   // {
-  //   path: '**',
-  //   resolve: {
-  //     path: PathResolveService,
-  //   },
-  //   component: NotfoundComponent,
+  //   path: paths.about,
+  //   component: AboutComponent,
   // },
+  // {
+  //   path: 'home',
+  //   component: ContactComponent,
+  // },
+  {
+    path: '**',
+    resolve: {
+      path: PathResolveService,
+    },
+    component: NotfoundComponent,
+  },
+  { path: 'about', component: AboutComponent },
+  { path: '404', component: NotfoundComponent },
 ];
 
 @NgModule({

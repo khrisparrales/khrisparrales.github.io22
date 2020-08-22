@@ -8,6 +8,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { PathResolveService } from './services/path-resolve.service';
+import { HeadComponent } from './components/head/head.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { PathResolveService } from './services/path-resolve.service';
     AboutComponent,
     ContactComponent,
     NotfoundComponent,
+    HeadComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [PathResolveService],
