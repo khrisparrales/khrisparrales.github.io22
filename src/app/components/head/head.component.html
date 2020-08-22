@@ -10,10 +10,19 @@
 <div class="pfl-wrapper">
     <!--  -->
     <nav id="nav">
+        <ul>
+            <li><a class="anav" routerLink="/home" routerLinkActive="active">Home Component</a></li>
+            <li><a class="anav" routerLink="/about" routerLinkActive="active">About Component</a></li>
+            <li><a class="anav" routerLink="/404" routerLinkActive="active">More</a></li>
 
-        <div class="nav-icon"><span></span></div>
+        </ul>
+        <!-- 
+        <div><span></span></div>
 
-        <div class="hire-me">Hire me</div>
+        <div>Hire me</div>
+        <div class="home">
+            <a class="anav" routerLink="/home" routerLinkActive="active">Home Component</a>
+        </div> -->
         <!-- <a routerLink="/home" routerLinkActive="active">Home</a>
         <a routerLink="/first-component" routerLinkActive="active">First Component</a>
          <a routerLink="/first-component" target="_blank">UTEQ</a>
@@ -21,18 +30,24 @@
             <li><a routerLink="/first-component" routerLinkActive="active">First Component</a></li>
         </div>
         
-        <li><a routerLink="/second-component" routerLinkActive="active">Second Component</a></li> -->
+        <li><a routerLink="/second-component" routerLinkActive="active">Second Component</a></li>
+
+        <ul>
+            <li><a routerLink="/home" routerLinkActive="active">Home Component</a></li>
+            <li><a routerLink="/about" routerLinkActive="active">About Component</a></li>
+        </ul>-->
 
 
 
 
     </nav>
-    <br>
 
+
+    <!-- 
     <div>
         <li><a routerLink="/home" routerLinkActive="active">Home Component</a></li>
         <li><a routerLink="/about" routerLinkActive="active">About Component</a></li>
         <li><a routerLink="/404" routerLinkActive="active">* Component</a></li>
-    </div>
+    </div> -->
     <router-outlet></router-outlet>
 </div>

@@ -9,6 +9,10 @@
     overflow: auto;
 }
 
+#anch {
+    color: red;
+}
+
 #nav {
     display: block;
     position: absolute;

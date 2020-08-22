@@ -3,9 +3,11 @@ body {
     height: 100%;
     min-height: 100vh;
     margin: 0;
-    background-color: #31a84f;
+    /* background-color: #31a84f;*/
+    /*   background-color: #facb43;*/
+    background-color: #EB72E5;
     font-family: 'Poppins', sans-serif;
-    color: rgba(0, 0, 0, 0.8);
+    color: #EEEEEE;
 }
 
 ::-webkit-scrollbar {
