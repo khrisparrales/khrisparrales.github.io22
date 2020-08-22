@@ -27,13 +27,13 @@ const routes: Routes = [
   //   path: 'home',
   //   component: ContactComponent,
   // },
-  {
-    path: '**',
-    resolve: {
-      path: PathResolveService,
-    },
-    component: NotfoundComponent,
-  },
+  // {
+  //   path: '**',
+  //   resolve: {
+  //     path: PathResolveService,
+  //   },
+  //   component: NotfoundComponent,
+  // },
   { path: 'info', component: AboutComponent },
   { path: '404', component: NotfoundComponent },
 ];
