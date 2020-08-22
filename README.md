@@ -5,7 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Init
 
 For init the project Run `npm i`
-
+ Add on html 
+ <title>Khris Parrales Github</title> <base href="https://khrisparrales.github.io/">    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 ## Development server
 
