@@ -35,7 +35,7 @@ const routes: Routes = [
   //   component: NotfoundComponent,
   // },
   { path: 'info', component: AboutComponent },
-  { path: '404', component: NotfoundComponent },
+ // { path: '404', component: NotfoundComponent },
 ];
 
 @NgModule({
