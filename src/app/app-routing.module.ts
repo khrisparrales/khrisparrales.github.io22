@@ -19,10 +19,10 @@ const routes: Routes = [
     path: paths.home,
     component: HomeComponent,
   },
-  // {
-  //   path: paths.about,
-  //   component: AboutComponent,
-  // },
+  {
+    path: paths.about,
+    component: AboutComponent,
+  },
   // {
   //   path: 'home',
   //   component: ContactComponent,
@@ -34,7 +34,7 @@ const routes: Routes = [
     },
     component: NotfoundComponent,
   },
-  { path: 'about', component: AboutComponent },
+  { path: 'info', component: AboutComponent },
   { path: '404', component: NotfoundComponent },
 ];
 
