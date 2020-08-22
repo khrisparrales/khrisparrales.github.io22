@@ -34,7 +34,7 @@ const routes: Routes = [
   //   },
   //   component: NotfoundComponent,
   // },
-  { path: 'info', component: AboutComponent },
+  { path: 'task', component: AboutComponent },
  // { path: '404', component: NotfoundComponent },
 ];
 
